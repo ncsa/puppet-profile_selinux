@@ -1,1 +1,2 @@
---- {}
+---
+profile_selinux::enable: false
