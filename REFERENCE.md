@@ -6,19 +6,31 @@
 
 ### Classes
 
-* [`profile_selinux::selinux`](#profile_selinuxselinux): A short summary of the purpose of this class
+* [`profile_selinux`](#profile_selinux): profile to manage SELinux
 
 ## Classes
 
-### <a name="profile_selinuxselinux"></a>`profile_selinux::selinux`
+### <a name="profile_selinux"></a>`profile_selinux`
 
-A description of what this class does
+profile to manage SELinux
 
 #### Examples
 
 ##### 
 
 ```puppet
-include profile_selinux::selinux
+include profile_selinux
 ```
+
+#### Parameters
+
+The following parameters are available in the `profile_selinux` class:
+
+* [`enable`](#enable)
+
+##### <a name="enable"></a>`enable`
+
+Data type: `Boolean`
+
+Boolean of state of SELinux
 
