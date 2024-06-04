@@ -26,9 +26,9 @@ include profile_selinux
 
 The following parameters are available in the `profile_selinux` class:
 
-* [`enable`](#enable)
+* [`enable`](#-profile_selinux--enable)
 
-##### <a name="enable"></a>`enable`
+##### <a name="-profile_selinux--enable"></a>`enable`
 
 Data type: `Boolean`
 
